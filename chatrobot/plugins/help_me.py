@@ -30,10 +30,7 @@ async def sedlyfsir(event):
     oknoob = Config.OWNER_ID
     oksir = Config.CUSTOM_START
     if Config.CUSTOM_START is None:
-        text_me = (f"**Hai. {firstname} , I am {bot_username}.** \n"
-               f"`I am A ChatBot To Talk With My` [Master](tg://user?id={oknoob}) \n"
-               f"**Send Me And I Will Send To Moi Master.** \n"
-               f"**Thank You**")
+        text_me = (f"**👋🏻 Hi! {firstname} , this is the official bot of [ᴠᴀꜱᴜ](tg://user?id=1926090919)!\n\n⬇️ Write here a message in this chat and I will forward it to [ᴠᴀꜱᴜ](tg://user?id=1926090919)!**")
     else:
         text_me = f"{oksir}"
     formaster = "Sir. How Can I Help You?"
